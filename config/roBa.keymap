@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&mt QUESTION EXCLAMATION  &mt SQT DOUBLE_QUOTES  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RIGHT_BRACE LEFT_BRACE   &mt RIGHT_BRACKET LEFT_BRACKET                                                    &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&mt HASH A                &kp S                  &kp D                                   &kp F                        &kp G                           &kp LS(LG(S))                      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z          &kp X                  &kp C                                   &kp V                        &kp B                           &kp COLON                          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL                 &kp LEFT_WIN           &kp LEFT_ALT                            &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE                     &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&mt QUESTION EXCLAMATION  &mt SQT DOUBLE_QUOTES  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RIGHT_BRACE LEFT_BRACE  &mt RIGHT_BRACKET LEFT_BRACKET                                             &mt UNDERSCORE Y    &mt MINUS R  &mt NON_US_BACKSLASH W  &mt PIPE P  &kp BACKSPACE
+&mt HASH A                &mt DOLLAR I           &mt PERCENT U                           &mt AMPERSAND E             &mt AT_SIGN O                   &mt GRAVE Q               &mt CARET K      &mt TILDE S         &mt EQUAL T  &lt 4 N                 &kp H       &kp M
+&kp Z                     &kp X                  &kp C                                   &kp V                       &kp F                           &kp L                     &mt LESS_THAN G  &mt GREATER_THAN J  &kp D        &mt COLON SEMICOLON     &lt 6 B     &mt PERIOD COMMA
+&kp LEFT_SHIFT            &kp LEFT_WIN           &kp LEFT_ALT                            &kp LEFT_CONTROL            &lt 2 SPACE                     &lt_to_layer_0 1 TAB      &kp ESCAPE       &kp ENTER                                                            &kp GRAVE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -120,10 +120,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &mkp MB3  &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans    &lt 5 ESCAPE  &mkp MB2
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                    &trans
             >;
         };
 
