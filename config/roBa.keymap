@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&mt QUESTION EXCLAMATION  &mt SQT DOUBLE_QUOTES  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RIGHT_BRACE LEFT_BRACE  &mt RIGHT_BRACKET LEFT_BRACKET                                             &mt UNDERSCORE Y    &mt MINUS R  &mt NON_US_BACKSLASH W  &mt PIPE P  &kp BACKSPACE
-&mt HASH A                &mt DOLLAR I           &mt PERCENT U                           &mt AMPERSAND E             &mt AT_SIGN O                   &mt GRAVE Q               &mt CARET K      &mt TILDE S         &mt EQUAL T  &lt 4 N                 &kp H       &kp M
-&kp Z                     &kp X                  &kp C                                   &kp V                       &kp F                           &kp L                     &mt LESS_THAN G  &mt GREATER_THAN J  &kp D        &mt COLON SEMICOLON     &lt 6 B     &mt PERIOD COMMA
-&kp LEFT_SHIFT            &kp LEFT_WIN           &kp LEFT_ALT                            &kp LEFT_CONTROL            &lt 3 SPACE                     &lt_to_layer_0 2 TAB      &kp ESCAPE       &kp ENTER                                                            &kp GRAVE
+&mt QUESTION EXCLAMATION  &mt AT_SIGN AMPERSAND  &mt STAR RIGHT_PARENTHESIS  &mt PIPE RIGHT_BRACE  &mt RBKT RIGHT_BRACKET                                             &mt MINUS Y         &mt MINUS R  &mt BACKSLASH W             &mt LS(BACKSLASH) P  &kp BACKSPACE
+&mt HASH A                &mt DOLLAR I           &mt PERCENT U               &mt CARET E           &mt LEFT_BRACKET O      &mt LEFT_BRACE Q          &mt EQUAL K      &mt PLUS S          &mt EQUAL T  &lt 4 N                     &kp H                &kp M
+&kp Z                     &kp X                  &kp C                       &kp V                 &kp F                   &kp L                     &mt LESS_THAN G  &mt GREATER_THAN J  &kp D        &mt SINGLE_QUOTE SEMICOLON  &lt 6 B              &mt PERIOD COMMA
+&kp LEFT_SHIFT            &kp LEFT_WIN           &kp LEFT_ALT                &kp LEFT_CONTROL      &lt 3 SPACE             &lt_to_layer_0 2 TAB      &kp ESCAPE       &kp ENTER                                                                         &kp GRAVE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -100,8 +100,8 @@
 
         NUM {
             bindings = <
-&kp F1   &kp F2  &kp F3  &kp F4  &kp F5                        &trans  &kp N7  &kp N8  &kp N9  &kp STAR
-&kp F6   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11      &trans  &trans  &kp N4  &kp N5  &kp N6  &kp PLUS
+&kp F1   &kp F2  &kp F3  &kp F4  &kp F5                        &trans  &kp N7  &kp N8  &kp N9  &kp DOUBLE_QUOTES
+&kp F6   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11      &trans  &trans  &kp N4  &kp N5  &kp N6  &kp COLON
 &kp F12  &trans  &trans  &trans  &trans   &trans       &trans  &trans  &kp N1  &kp N2  &kp N3  &trans
 &trans   &trans  &trans  &trans  &trans   &trans       &trans  &trans                          &trans
             >;
