@@ -26,34 +26,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         to_layer_0: to_layer_0 {
@@ -80,10 +53,10 @@
 
         default_layer {
             bindings = <
-&mt QUESTION EXCLAMATION  &mt AT_SIGN AMPERSAND  &mt STAR RIGHT_PARENTHESIS  &mt PIPE RIGHT_BRACE  &mt RBKT RIGHT_BRACKET                                             &mt MINUS Y         &mt MINUS R  &mt BACKSLASH W             &mt LS(BACKSLASH) P  &kp BACKSPACE
-&mt HASH A                &mt DOLLAR I           &mt PERCENT U               &mt CARET E           &mt LEFT_BRACKET O      &mt LEFT_BRACE Q          &mt EQUAL K      &mt PLUS S          &mt EQUAL T  &lt 4 N                     &kp H                &kp M
-&kp Z                     &kp X                  &kp C                       &kp V                 &kp F                   &kp L                     &mt LESS_THAN G  &mt GREATER_THAN J  &kp D        &mt SINGLE_QUOTE SEMICOLON  &lt 6 B              &mt PERIOD COMMA
-&kp LEFT_SHIFT            &kp LEFT_WIN           &kp LEFT_ALT                &kp LEFT_CONTROL      &lt 3 SPACE             &lt_to_layer_0 2 TAB      &kp ESCAPE       &kp ENTER                                                                         &kp GRAVE
+&mt QUESTION EXCLAMATION  &mt AT_SIGN AMPERSAND  &mt LS(N0) RIGHT_PARENTHESIS  &mt PIPE RIGHT_BRACE  &mt BACKSLASH RIGHT_BRACKET                                             &mt LS(MINUS) Y     &mt MINUS R       &mt BACKSLASH W             &mt LS(BACKSLASH) P  &kp BACKSPACE
+&mt HASH A                &mt DOLLAR I           &mt PERCENT U                 &mt CARET E           &mt LEFT_BRACKET O           &mt LEFT_BRACE Q          &mt EQUAL K      &mt PLUS S          &mt UNDERSCORE T  &lt 4 N                     &kp H                &kp M
+&kp Z                     &kp X                  &kp C                         &kp V                 &kp F                        &kp L                     &mt LESS_THAN G  &mt GREATER_THAN J  &mt SLASH D       &mt SINGLE_QUOTE SEMICOLON  &lt 6 B              &mt PERIOD COMMA
+&kp LEFT_SHIFT            &kp LEFT_WIN           &kp LEFT_ALT                  &kp LEFT_CONTROL      &lt 3 SPACE                  &lt_to_layer_0 2 TAB      &kp ESCAPE       &kp ENTER                                                                              &kp GRAVE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
